@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.clearfix::after{
+    clear: both;
+    content: '';
+    display:table
+}
+Header{
+    background-color: #ff3333;
+    padding: 15px 645px;
+}
+#sub-header{
+    color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 3px 3px;
+    text-align: center;
+}
+#baner-sub-container{
+    background-image: url('./img/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    padding-top: 230px;
+    box-sizing: border-box;
+}
+#baner-sub-container div{
+    color: white;
+    background-color:#cc9900; 
+    height: 250px;
+    width: 30%;
+}
+#baner-sub-container h2{
+    font-size: 70px;
+    font-weight: 300;
+    padding-top: 35px;
+    padding-left: 25px;
+} 
+#baner-sub-container h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+#navigation-menu ul li{
+    float: left;
+    list-style-type: none;
+    /*margin-right: 100px;
+    margin-left: 100px;*/
+    margin: 0px 120px;
+}
+#navigation-menu ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+#navigation-menu ul li a:hover{
+    color: #ff3333;
+}
+.container{
+    max-width: 1280px;
+    margin: 0px 0px;
+}
+#paragraph p{
+    width: 100%;
+    margin-left: 100px;
+    color: #333333;
+}
+#paragraph h4{
+    color: #333333;
+    margin-left: 100px;
+    width: 100%;
+    margin-top: 15px;
+}
+#paragraph h2{
+    color: #ff3333;
+    margin-top: 70px;
+    margin-left: 110px;
+    width: 100%;
+    font-size: 39px;
+    font-weight: 700;
+}
+#img div img{
+    float: left;
+    width: 30%;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+#joining{
+    text-align: center;
+    width: 100%;
+}
+#joining h2{
+    margin-top: 150px;
+    color: #333333;
+}
+#joining p{
+    margin-top: 10px;
+    color: #333333;
+}
+#joining h3{
+    margin-top:30px;
+    margin-bottom: 70px;
+    color: #666666;
+}
+#sub-footers{
+    text-align: center;
+    padding: 18px 0px;
+    color: white;
+    background-color: #ff3333;
+    box-sizing: border-box;
+}
